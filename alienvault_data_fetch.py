@@ -4,7 +4,7 @@ import os
 
 otx_pulse_ids = "https://otx.alienvault.com/api/v1/pulses/subscribed_pulse_ids"
 #otx_api_pulse_url = "https://otx.alienvault.com/api/v1/pulses/60ece5998a5b54a5ffe75cb4/indicators"
-otx_api_key = "c161c08ef77dceeb929c940d06fa61efde7ac1f9ab99a59ff8165fe59d029840"
+otx_api_key = ""
 
 def fetch_pulses(api_url, api_key):
     headers = {'X-OTX-API-KEY': api_key}
